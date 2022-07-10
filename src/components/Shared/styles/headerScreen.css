@@ -91,6 +91,10 @@
       display: flex;
       align-items: center;
     }
+    .navbar__items:hover {
+      background-color: var(--secondary-color);
+ 
+    }
     .navbar__links{
       padding: 0 30px;
     }

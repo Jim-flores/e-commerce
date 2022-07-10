@@ -4,9 +4,8 @@ const UserLogged = ({logOut}) => {
   
   return (
     <article>
-      <i className="fa-solid fa-user-check"></i>
-      <h2>User Logged</h2>
-      <button onClick={logOut}>Log Out</button>
+      
+      <button  className='b-logOut' onClick={logOut}><i className="fa-solid fa-door-open"></i> Log Out</button>
     </article>
   )
 }
