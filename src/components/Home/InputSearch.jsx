@@ -1,6 +1,6 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
-
+import './style/homeScreen.css'
 const InputSearch = () => {
 
   const {handleSubmit, register, reset} = useForm()
@@ -11,8 +11,8 @@ const InputSearch = () => {
 
   return (
     <form onSubmit={handleSubmit(submit)} className='form-home'>
-      <input type="text" {...register('searchText')} />
-      <button>Search</button>
+      <input placeholder='Find a product...' type="text" {...register('searchText')} />
+      <button><i class="fa-solid fa-magnifying-glass lupa"></i></button>
     </form>
   )
 }

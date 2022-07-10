@@ -57,6 +57,11 @@
     margin: 40px auto 0;
     cursor: pointer;
   }
+  .cart__btn:hover {
+    color: rgb(63, 61, 61);
+    background-color: rgb(253, 159, 159);
+    padding: 10px;
+  }
   @media screen and (min-width: 720px) {
     .cart{
       width: min(900px, 100%);
