@@ -28,4 +28,12 @@
   }
   .login__item{
     margin-bottom: 10px;
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+  }
+  .b-login {
+    width: 100%;
+    height: 30px;
+ 
   }

@@ -68,7 +68,7 @@ const Form = () => {
           isErrorLogin && 'Invalid credentials, try again...'
         }
       </div>
-      <button>Login</button>
+      <button className='b-login'>Login</button>
     </form>
   )
 }
